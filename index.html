@@ -1,0 +1,420 @@
+<!doctype html>
+<html>
+<head>
+	<title>K.Y.B.A.</title>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="hover-transition-1.13.14/style.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+
+	<!-- External Libraries -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="interactivity.js"></script>
+	<!-- FancyBox -->
+	<link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancyBox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Metadata -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-49705406-1', 'karlissaablay.com');
+	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li id="dropdown"><i class="fa fa-bars"></i></li>
+			<div id="links">
+				<a href="#about">
+					<li>
+						<h1>about</h1>
+						<!-- <object data="images/navDecor.svg" type="image/svg+xml">
+							<img src="yourfallback.jpg" />
+						</object>	 -->
+						<div class="border"></div>			
+						<h2>Why so curious</h2>
+					</li>
+				</a>
+
+				<a href="#works">
+					<li>
+						<h1>work</h1>
+						<!-- <object data="images/navDecor.svg" type="image/svg+xml">
+							<img src="yourfallback.jpg" />
+						</object> -->			
+						<div class="border"></div>			
+
+						<h2>Artworks galore</h2>
+					</li>
+				</a>
+
+				<a href="#contact">
+					<li>
+						<h1>contact</h1>
+						<!-- <object data="images/navDecor.svg" type="image/svg+xml">
+							<img src="yourfallback.jpg" />
+						</object>				 -->
+						<div class="border"></div>			
+
+						<h2>Email me</h2>
+					</li>
+				</a>
+			</div>
+		</ul>
+
+		<ul id="toTop" class="fix">
+			<a href="#parallax">
+				<li>
+					<img class="button" src="images/slideUp.png" width="50px">
+				</li>
+			</a>
+		</ul>
+		<h2 id="quote" class="grey">
+			Making the web prettier one css attribute at a time<br>
+			<i class="fa fa-square fa-1x"></i>
+			<i class="fa fa-square fa-1x"></i>
+			<i class="fa fa-square fa-1x"></i>
+			<i class="fa fa-square fa-1x"></i>
+		</h2>
+	</nav>
+
+	<!-- Page Borders -->
+	<div id="top"></div>
+	<div id="bottom"></div>
+	<div id="right"></div>
+	<div id="left"></div>
+
+	<!-- Parallax -->
+	<section id="parallax">
+		<div class="content">
+			<div class="inner">
+				<li class="layer title">&nbsp;</li>
+				<ul id="scene" class="scene">
+					<li class="first">&nbsp;</li>
+					<li class="second">&nbsp;</li>
+					<li class="third">&nbsp;</li>
+					<li class="fourth">&nbsp;</li>
+				</ul>
+				<!-- <div class="border"></div> -->
+			</div>
+		</div>
+	</section>
+
+
+	<section id="about">
+		<div class="content">
+			<div class="inner">
+				<header> Why, hello!</header>
+				<article>
+					<p>Software Developer by day and Graphic Designer by night, I'm a web-designing, 2D/3D-animating, tea-loving artiste. Whether it's debugging C++ or painstakingly modeling a new character, I spend countless hours typing away on the keyboard.
+						<br>
+						<br>
+						I graduated from the <a>University of Colorado at Boulder</a> with a degree in Computer Science and a minor in <a>Technology, Arts, and Media</a> in May 2014. Currently residing in Boulder, CO, and enjoying 300 days of sunshine, I'm searching for an amazing team with whom I can grow both my development and artistic abilities.
+						<br>
+						<br>
+						So in short, I adore making everything look pretty and work well through technology - be it through UI Development, UX Design or Sofware Development.<i class="fa fa-heart fa-1x"></i>
+					</p>
+					<ul>
+						<li><a href="kAblayDesResume_4.16.pdf" target="_blank"><i class="fa fa-file fa-4x"></i></a></li>
+						<li><a href="https://www.linkedin.com/pub/karlissa-ysabel-ablay/67/a05/bb2/" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a></li>
+					</ul>
+				</article>
+				<img src="images/me.png" id="me" onmouseover="this.src='images/me.gif'" onmouseout="this.src='images/me.png'">
+			</div>
+		</div>
+	</section>
+
+	<section id="works">
+		<div class="content">
+			<div class="inner">			
+
+
+				<div id="leftCol">
+					<header>Work</header>
+					<article>
+						<p>Dabbling with various digital mediums has its perks - there's always a new challenge around every corner!
+						</p>
+					</article>
+				</div>
+
+				<div id="workBox">
+					<ul>
+						<li class="wrapper">
+							<a class="link" href="#animation"></a>
+							<div class="overlay">
+								<div class="arrow-left"></div>
+								<div class="rectangle"></div>
+							</div>
+
+							<div class="description">
+								<h3>Animation and 3D Art</h3>
+								<p>Animated features created in Maya</p>
+							</div>
+							<img src="images/buttonAnim.png">
+						</li>
+
+						<li class="wrapper">
+							<a class="link" href="#digital"></a>
+							<div class="overlay">
+								<div class="arrow-left"></div>
+								<div class="rectangle"></div>
+							</div>
+
+							<div class="description">
+								<h3>Digital Art</h3>
+								<p>Interactive Art and Digital Drawings</p>
+							</div>
+							<img src="images/buttonDigital.png">
+						</li>
+
+						<li class="wrapper">
+							<a class="link" href="#web"></a>
+							<div class="overlay">
+								<div class="arrow-left"></div>
+								<div class="rectangle"></div>
+							</div>
+
+							<div class="description">
+								<h3>Web Design &amp; Development</h3>
+								<p>Where HTML, CSS, JavaScript, &amp; jQuery make interactive and dynamic websites</p>
+							</div>
+							<img src="images/buttonWeb.png">
+						</li>
+
+						<li class="wrapper">
+							<a class="link" href="#flash"></a>
+							<div class="overlay">
+								<div class="arrow-left"></div>
+								<div class="rectangle"></div>
+							</div>
+
+							<div class="description">
+								<h3>Flash Games</h3>
+								<p>Combining code and artwork to create stories and games</p>
+							</div>
+							<img src="images/buttonFlash.png">
+						</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+
+				<div class="clear"></div>
+
+				<!-- Animation -->
+				<section class="side" id="animation">
+					<div class="away">
+						<img class="middle button" src="images/slideRight.png">
+					</div>
+					&nbsp;
+					<h1>3D Animation and Art</h1>
+					<h2>All you need is a 3D animating program, a lot of patience, and at least five computers</h2>
+					<hr style="width:90%; margin:3px auto;">
+					<hr style="width:90%; margin:3px auto;">
+					<div class="projImages">
+						<ul>
+							<!-- Row 1 -->
+							<li><a class="fancybox" rel="animations" href="images/workImages/animBoyRef.png" title="Character Design and Model Reference"><img src="images/workImages/iconAnimBoyRef.png"></a></li>
+							<li><a class="fancybox" rel="animations" href="images/workImages/animBoyRender.png" title="Character Close Up"><img src="images/workImages/iconAnimBoyRender.png"></a></li>
+							<li><a class="fancybox" rel="animations" href="images/workImages/animBoyBody.png" title="Character Front and Side View"><img src="images/workImages/iconAnimBoyBody.png"></a></li>
+						</ul>
+						<ul>
+							<!-- Row 2 -->
+							<li><a class="fancybox" rel="animations" href="images/workImages/animLemurRef.png" title="Character Design and Model Reference"><img src="images/workImages/iconAnimLemurRef.png"></a></li>
+							<li><a class="fancybox" rel="animations" href="images/workImages/animLemurRender.png" title="Character Close Up"><img src="images/workImages/iconAnimLemurRender.png"></a></li>
+							<li><a class="fancybox" rel="animations" href="images/workImages/animLemurBody.png" title="Character Front and Side View"><img src="images/workImages/iconAnimLemurBody.png"></a></li>
+						</ul>
+							<!-- Row 3 -->
+						<ul>
+							<li><a class="fancybox" rel="animations" href="images/workImages/animSceneRocket.png" title="Rocket Model"><img src="images/workImages/iconAnimSceneRocket.png"></a></li>
+							<li><a class="fancybox" rel="animations" href="images/workImages/animSceneClouds.png" title="Cloud Testing"><img src="images/workImages/iconAnimSceneClouds.png"></a></li>
+							<li><a class="fancybox" rel="animations" href="projects/kAblayAnimation_small.mov" title="The Cardboard Rocket" target="_blank"><img src="images/workImages/iconAnimPlay.png"></a></li>
+						</ul>
+					</div>
+					<!-- <hr style="width:90%; margin:3px auto;">
+					<hr style="width:90%; margin:3px auto;">
+					<div class="projDescription">
+						<div class="projLeft">
+							<article>
+								<h1>The Cardboard Rocket <em>2014</em></h1>
+								<p>A university project to push the boundaries of my animation skills, this short movie required patience, time, and hogging five campus computers for a good week.</p>
+								<p>A culmination of storyboarding, character design, modelling, rigging, lighting, and animation, "The Cardboard Rocket" tested my skills as an artist in every manner.</p>
+								<br>
+								<p><em>Check back soon to watch the finished short!</em></p>
+							</article>
+						</div> -->
+						<div style="clear:both;"></div>
+					<!-- </div> -->
+				</section><!-- Animation Finish -->
+
+				<!-- Digital  -->
+				<section class="side" id="digital">
+					<div class="away">
+						<img class="middle button" src="images/slideRight.png">
+					</div>
+					&nbsp;
+					<h1>Digital Art</h1>
+					<h2>Just give me a tablet and a computer... Voila! Art!</h2>
+					<hr style="width:90%; margin:3px auto;">
+					<hr style="width:90%; margin:3px auto;">
+					<div class="projImages">
+						<ul>
+							<!-- Row 1 -->
+							<li><a class="fancybox" rel="digitals" href="images/workImages/digiBBSketch.png" title="Sketch for Babble Bubbles Android App"><img src="images/workImages/iconDigiBBSketch.png"></a></li>
+							<li><a class="fancybox" rel="digitals" href="images/workImages/digiBBFin.png" title="Title image for Babble Bubbles Android App"><img src="images/workImages/iconDigiBBFin.png"></a></li>
+							<li><a class="fancybox" rel="digitals" href="images/workImages/digiCup1.png" title="Preliminary style research and design for children's eBook"><img src="images/workImages/iconDigiCup1.png"></a></li>
+							<li><a class="fancybox" rel="digitals" href="images/workImages/digiCup2.png" title="Final style choices for children's eBook"><img src="images/workImages/iconDigiCup2.png"></a></li>
+						</ul>
+						<ul>
+							<!-- Row 2 -->
+							<li><a class="fancybox" rel="digitals" href="images/workImages/digiGArt01.png" title="Art design for soon-to-be app game"><img src="images/workImages/iconDigiGArt01.png"></a></li>
+							<li><a class="fancybox" rel="digitals" href="images/workImages/digiGArt02.png" title="Character design for soon-to-be app game"><img src="images/workImages/iconDigiGArt02.png"></a></li>
+
+							<li><a class="fancybox" rel="digitals" href="projects/dataVisual.zip"><img src="images/workImages/iconDigiData.png" ></a></li>
+							<li><a class="fancybox" rel="digitals" href="iprojects/videoGame.zip"><img src="images/workImages/iconDigiGame.png"></a></li>
+						</ul>
+						<p><em>Please note that interactive files will be downloaded. You'll need Processing to play them.</em></p>
+					</div>
+					<!-- <hr style="width:90%; margin:3px auto;">
+					<hr style="width:90%; margin:3px auto;"> -->
+					<!-- <div class="projDescription">
+						<div class="projLeft">
+							<article>
+								<h1>Interactive Art <em>2012</em></h1>
+								<p>Processing allows digital artists to easily combine code and imagination to create interactive pieces.</p>
+								<p><em>Please note that you'll need download the files and open them in Processing to view these artworks.</em></p>
+								<br>
+								<h1>Digital Art <em>2013+</em></h1>
+								<p>Whether it's creating artwork for games or manipulating digital illustrations to emulate traditional mediums, developing a unique art style for varying atmospheres is always an exciting challenge.</p>
+							</article>
+						</div> -->
+
+						<div style="clear:both;"></div>
+					<!-- </div> -->
+				</section><!-- Digital Finish -->
+
+				<!-- Web  -->
+				<section class="side" id="web">
+					<div class="away">
+						<img class="middle button" src="images/slideRight.png">
+					</div>
+					&nbsp;
+					<h1>Web Development & Design</h1>
+					<h2>The tools of the trade are code, photoshop, and a keen eye for design</h2>
+					<hr style="width:90%; margin:3px auto;">
+					<hr style="width:90%; margin:3px auto;">
+					<div class="projImages">
+						<ul>
+							<li><a href="https://redwood.colorado.edu/kaab3103/" target="_blank"><img src="images/workImages/iconWebV1.png"></a></li>
+							<li><a href="particles/index.html" target="_blank"><img src="images/workImages/iconWebV2.png"></a></li>
+							<li><a href="projects/tmExpress/index.html" target="_blank"><img src="images/workImages/iconWebTruck.png"></a>
+							</ul>
+						</div>
+						<hr style="width:90%; margin:3px auto;">
+						<hr style="width:90%; margin:3px auto;">
+						<div class="projDescription">
+							<div class="projLeft">
+								<article>
+									<h1>Eat, Sleep, Repeat <em>2012</em></h1>
+									<p>A previous minimalistic, dark class portfolio that plays with Javascript scrolling and Shadowbox.</p>
+									<br>
+									<h1>Playing with Particles <em>2013</em></h1>
+									<p>A previous personal portfolio that experiments with HTML5 particles and handcoded effects.</p>
+									<br>
+									<h1>Go With TM <em>2013</em></h1>
+									<p>An unfortunately unfinished (due to company problems) freight website with a clean, stacked style.</p>
+								</article>
+							</div>
+							<div style="clear:both;"></div>
+						</div>
+					</section><!-- Web Finish -->
+
+					<!-- Flash  -->
+					<section class="side" id="flash">
+						<div class="away">
+							<img class="middle button" src="images/slideRight.png">
+						</div>
+						&nbsp;
+						<h1>Flash Games and Novels</h1>
+						<h2>An homage to the Japanese otome game genre</h2>
+						<hr style="width:90%; margin:3px auto;">
+						<hr style="width:90%; margin:3px auto;">
+						<div class="projImages">
+							<ul>
+								<li><a class="fancybox" href="projects/flashNovel.swf" title="Flash Novel: Hello and Goodbye"><img src="images/workImages/iconFlashNovel.png"></a></li>
+								<li><a class="fancybox" href="projects/flashGame.swf" title="Flash Game: Marigold"><img src="images/workImages/iconFlashGame.png"></a></li>
+							</ul>
+						</div>
+				<hr style="width:90%; margin:3px auto;">
+				<hr style="width:90%; margin:3px auto;">
+				<div class="projDescription">
+					<div class="projLeft">
+						<article>
+							<h1>Hello And Goodbye <em>2010</em></h1>
+							<p>A short-and-sweet visual novel with Shojo-style influences to basic Flash abilities.</p>
+							<br>
+							<h1>Marigold <em>2013</em></h1>
+							<p>A (strategy-like) flash game to which mimics the Tokimeki otome games. Actionscript was learned, backgrounds were painstakingly drawn, and characters are reminiscent of Otome stereotype characters.</p>
+							<br>
+							<p><em>The files are fairly large. Give it a minute to load.</em></p>
+						</article>
+					</div>
+						<div style="clear:both;"></div>
+					</div>
+				</section><!-- Flash Finish -->
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="content">
+			<div class="inner">
+				<header>Contact me</header>
+				<article><p>Interested in my work? Shoot me an email and let me know!</p></article>
+				<div id="contactForm">
+					<form method="post" action="contact.php">
+						<label for="Name">Name</label>
+						<br>
+						<input type="text" name="Name" id="Name" />
+						<br>
+						<label for="Email">Email</label>
+						<br>
+						<input type="text" name="Email" id="Email" />
+						<br>
+						<label for="Message">Message</label>
+						<br>
+						<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+						<br>
+						<input type="submit" name="submit" value="MAIL IT!" class="submit-button"/>
+					</form>
+					<div class="clear"></div>
+				</div>
+				<img id="trianglesLeft" src="images/tri2.png">
+				<img id="trianglesRight" src="images/tri.png">
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>
+</body>
+</html>
